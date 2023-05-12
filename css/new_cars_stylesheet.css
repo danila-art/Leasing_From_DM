@@ -1,0 +1,207 @@
+.new-car__section-1 {
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+.catalog {
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.catalog__heading {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.catalog__heading h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.catalog__filter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.catalog__filter-box {
+    display: block;
+    width: 15vw;
+    height: auto;
+    text-align: center;
+}
+
+.catalog__filter h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70vw;
+    height: auto;
+    margin: 2% auto;
+}
+
+.cars__box {
+    display: block;
+    position: relative;
+    width: 15vw;
+    height: auto;
+    border: 1px solid #0066FF;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+
+.cars__box-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cars__box-img img {
+    width: 100%;
+    height: auto;
+}
+
+.cars__box-heading h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 1%;
+}
+
+.cars__box-starting p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cars__box-price h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cars__box-button {
+    display: block;
+    border-top: 1px solid #0066FF;
+    height: 8%;
+}
+
+.cars__box-button p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0066FF;
+    padding: 1%;
+    margin: 0;
+}
+
+.cars__button {
+    display: block;
+    background-color: #151515;
+    width: 10vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cars__button a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    padding: 7%;
+}
+
+.news {
+    display: block;
+    width: 70vw;
+    height: auto;
+    margin: 4% auto;
+    padding-bottom: 5%;
+}
+
+.news__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 68vw;
+    height: auto;
+    margin: 4% auto;
+}
+
+.news__box {
+    width: 32vw;
+    height: auto;
+}
+
+.news__box-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.news__box-img img {
+    width: 100%;
+    height: auto;
+}
+
+.news__box-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__box-flex-text {
+    display: block;
+    width: 80%;
+    height: auto;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.news__box-flex-text h3{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.news__box-flex-button {
+    display: block;
+    background-color: #0066FF;
+    width: 15%;
+    height: 13%;
+    text-align: center;
+}
+
+.news__box-flex-button a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    padding: 9%;
+}

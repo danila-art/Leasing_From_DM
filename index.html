@@ -19,7 +19,7 @@
                 </div>
                 <nav class="header__navigation">
                     <div class="header-navigation__box-button">
-                        <a href="#">NEW CARS</a>
+                        <a href="html/new_cars.html">NEW CARS</a>
                     </div>
                     <div class="header-navigation__box-button">
                         <a href="#">PRE-OWNED CARS</a>
@@ -31,27 +31,28 @@
                         <a href="#">LEASE VS BUY</a>
                     </div>
                     <div class="header-navigation__box-button">
-                        <a href="#">CONTACT US</a>
+                        <a href="html/contact.html">CONTACT US</a>
                     </div>
                 </nav>
             </div>
         </header>
         <!-- Блок с слайдером абсолютное позиционирование -->
         <div class="section-1__slider-container">
-            <div class="section-1-slider-container__inner-container">
+            <div class="section-1-slider-container-inner-container__box-img-background-block" id="eventClickSlider">
+            </div>
+            <div class="section-1-slider-container__inner-container" id="sliderContainer">
                 <div class="section-1-slider-container-inner-container__box-img">
-                    <img src="img/section-1__cars-1.png" alt="error-section-1-slide-img">
+                    <img src="img/section-1__cars-1.png" alt="error-section-1-slide-img" id="sliderBox1">
                 </div>
                 <div class="section-1-slider-container-inner-container__box-img">
-                    <img src="img/section-1__cars-2.jpg" alt="error-section-1-slide-img">
+                    <img src="img/section-1__cars-2.jpg" alt="error-section-1-slide-img" id="sliderBox2">
                 </div>
                 <div class="section-1-slider-container-inner-container__box-img">
-                    <img src="img/section-1__cars-3.jpg" alt="error-section-1-slide-img">
+                    <img src="img/section-1__cars-3.jpg" alt="error-section-1-slide-img" id="sliderBox3">
                 </div>
                 <div class="section-1-slider-container-inner-container__box-img">
-                    <img src="img/section-1__cars-4.jpg" alt="error-section-1-slide-img">
+                    <img src="img/section-1__cars-4.jpg" alt="error-section-1-slide-img" id="sliderBox4">
                 </div>
-                <div class="section-1-slider-container-inner-container__box-img-background-block"></div>
             </div>
         </div>
         <!-- Блок с заголовоком и кнопкой -->
@@ -165,7 +166,8 @@
                 </div>
             </div>
             <div class="how-work__end-text-content">
-                <p>Lease contracts are a commitment and ending them early can be difficult and expensive so it is important to consider your circumstances carefully before you decide.</p>
+                <p>Lease contracts are a commitment and ending them early can be difficult and expensive so it is
+                    important to consider your circumstances carefully before you decide.</p>
             </div>
         </div>
     </section>
@@ -178,13 +180,160 @@
                 <h2>Find out how easy it is to lease from D&M</h2>
             </div>
             <div class="video__box-img">
-                <img src="img/box-video/video-img.png" alt="error-upload-video-img">
+                <img src="img/box-video/video-img.png" alt="error-upload-video-img" class="video__box-img-1">
                 <div class="video-box-img__button-open-module">
-                    <img src="img/box-video/button-play.png" alt="error-upload-video-button-play">
+                    <img src="img/box-video/button-play.png" alt="error-upload-video-button-play"
+                        class="video__box-img-2">
                 </div>
             </div>
         </div>
     </section>
+    <section class="section-5">
+        <div class="important">
+            <div class="important__heading">
+                <h1>Important Things to Consider</h1>
+            </div>
+            <div class="important__text-content">
+                <p>Depending on your circumstances and what is important to you, a lease could be a great option for
+                    your next vehicle.
+                    Below are some important factors that may influence your decision.</p>
+            </div>
+            <div class="important__flex-container">
+                <div class="important-flex-container__box">
+                    <div class="important-flex-container__box-img">
+                        <img src="img/important/important-img-1.png" alt="error-upload-img-important-box">
+                    </div>
+                    <div class="important-flex-container__box-text-content">
+                        <p>Monthly payments on leases are generally 20% - 30% cheaper than loans</p>
+                    </div>
+                </div>
+                <div class="important-flex-container__box">
+                    <div class="important-flex-container__box-img">
+                        <img src="img/important/important-img-2.png" alt="error-upload-img-important-box">
+                    </div>
+                    <div class="important-flex-container__box-text-content">
+                        <p>You may be eligible for a tax break if you use the leased vehicle for business purposes</p>
+                    </div>
+                </div>
+                <div class="important-flex-container__box">
+                    <div class="important-flex-container__box-img">
+                        <img src="img/important/important-img-3.png" alt="error-upload-img-important-box">
+                    </div>
+                    <div class="important-flex-container__box-text-content">
+                        <p>Easy to upgrade to the newest vehicle model every few years</p>
+                    </div>
+                </div>
+                <div class="important-flex-container__box">
+                    <div class="important-flex-container__box-img">
+                        <img src="img/important/important-img-4.png" alt="error-upload-img-important-box">
+                    </div>
+                    <div class="important-flex-container__box-text-content">
+                        <p>There are often fees charged if you drive more than your lease's mileage allowance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__flex-container">
+            <div class="footer-flex__box">
+                <div class="footer-flex-box__heading">
+                    <h2>Products</h2>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Used</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>New</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Sell your car</p>
+                </div>
+            </div>
+            <div class="footer-flex__box">
+                <div class="footer-flex-box__heading">
+                    <h2>Resources</h2>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Blog</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>FAQ</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Contact us</p>
+                </div>
+            </div>
+            <div class="footer-flex__box">
+                <div class="footer-flex-box__heading">
+                    <h2>Work With TrueCar</h2>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Dealers</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Partners</p>
+                </div>
+            </div>
+            <div class="footer-flex__box">
+                <div class="footer-flex-box__heading">
+                    <h2>About</h2>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>About us</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Team</p>
+                </div>
+                <div class="footer-flex-box__p">
+                    <p>Careers</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__flex-apple-android">
+            <div class="footer-flex-apple-android__box">
+                <div class="footer-flex-apple-android__box-img">
+                    <img src="img/footer/Apple.png" alt="error">
+                </div>
+                <div class="footer-flex-apple-android__box-text">
+                    <p>Available on the</p>
+                    <h3>App Store</h3>
+                </div>
+            </div>
+            <div class="footer-flex-apple-android__box">
+                <div class="footer-flex-apple-android__box-img">
+                    <img src="img/footer/Android.png" alt="error">
+                </div>
+                <div class="footer-flex-apple-android__box-text">
+                    <p>Get on</p>
+                    <h3>Google play</h3>
+                </div>
+            </div>
+        </div>
+        <div class="footer__text-content">
+            <p>For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.<br>
+                Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements
+                and complete the
+                TrueCar Dealer Certification Program.<br>
+                TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on
+                this website are
+                offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing
+                this website,
+                you agree to the TrueCar Terms of Service and Privacy Policy.</p>
+        </div>
+        <div class="footer__link">
+            <div class="footer-link__box">
+                <h2>Terms of Service</h2>
+            </div>
+            <div class="footer-link__box">
+                <h2>Privacy Policy</h2>
+            </div>
+            <div class="footer-link__box">
+                <h2>Do Not Sell My Personal Information</h2>
+            </div>
+        </div>
+    </footer>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>

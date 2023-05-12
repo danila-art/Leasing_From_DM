@@ -1,0 +1,152 @@
+.contact__section-1 {
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+.contact {
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.contact__heading {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contact__heading h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.contact__text-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contact__text-content h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.contact__name-email {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 40vw;
+    height: auto;
+    margin: 2% auto;
+}
+
+.contact__name {
+    display: block;
+}
+
+.contact__name input {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #0066FF;
+    width: 18vw;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+/* .contact__name input::placeholder {
+    padding-left: 5%;
+} */
+
+.contact__name input:focus {
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #0066FF;
+}
+
+.contact__email {
+    display: block;
+}
+
+.contact__email input {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #0066FF;
+    width: 18vw;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+/* .contact__email input::placeholder {
+    padding-left: 5%;
+} */
+
+.contact__email input:focus {
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #0066FF;
+}
+
+.contact__text-area {
+    display: block;
+    width: 40vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+.contact__text-area textarea {
+    display: block;
+    width: 38.6vw;
+    height: 30vh;
+    border: 1px solid #0066FF;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact__text-area textarea:focus {
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #0066FF;
+}
+
+.contact__submit {
+    display: block;
+    background-color: #151515;
+    width: 10vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact__submit input {
+    display: block;
+    width: 100%;
+    background-color: #151515;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    padding: 7%;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
