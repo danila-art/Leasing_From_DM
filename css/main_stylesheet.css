@@ -95,7 +95,7 @@ body {
     flex-wrap: nowrap;
     width: 400vw;
     user-select: none;
-    transition: .4s;
+    transition: .2s;
 }
 
 .section-1-slider-container-inner-container__box-img {
@@ -147,8 +147,11 @@ body {
     width: 20vw;
     text-align: center;
     margin: 0 auto;
+    transition: .1s;
 }
-
+.section-1-heading__button:hover{
+    background-color: #0066FF;
+}
 .section-1-heading__button a {
     display: block;
     text-decoration: none;

@@ -136,6 +136,11 @@
     margin: 0 auto;
 }
 
+.contact__submit input:hover {
+    background-color: #0066FF;
+    border: 1px solid #0066FF;
+}
+
 .contact__submit input {
     display: block;
     width: 100%;
@@ -149,4 +154,5 @@
     padding: 7%;
     cursor: pointer;
     letter-spacing: 1px;
+    transition: .1s;
 }

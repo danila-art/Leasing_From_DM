@@ -14,21 +14,35 @@ eventClickSlider.addEventListener('mousedown', () => {
 })
 window.addEventListener('mouseup', () => {
     console.log("Кнопка отжата")
-    if (translate < -12) {
-        console.log("После отжатия translate = " + translate)
+    console.log("После отжатия translate = " + translate)
+    // Если переведено больше на 2 слайд
+    if (translate < -12 && translate > -35) {
+        console.log("Применен 1 блок")
         translate = -25
-        sliderContainer.style.transition = ".6s"
         sliderContainer.style.transform = 'translate(' + translate + '%)';
-        setTimeout(()=>{
-            sliderContainer.style.transition = ".4s"
-        },600)
-    } else if (translate >= -12) {
+    } else if (translate >= -12 && translate > -35) {
+        console.log("Применен 1.1 блок")
         translate = 0
-        sliderContainer.style.transition = ".6s"
         sliderContainer.style.transform = 'translate(' + translate + '%)';
-        setTimeout(()=>{
-            sliderContainer.style.transition = ".4s"
-        },600)
+    }
+    // Если переведено больше на 2 слайд
+    else if (translate < -35 && translate > -60) {
+        console.log("Применен 2 блок")
+        translate = -50
+        sliderContainer.style.transform = 'translate(' + translate + '%)';
+    } else if (translate >= -35 && translate > -60) {
+        console.log("Применен 2.1 блок")
+        translate = -25
+        sliderContainer.style.transform = 'translate(' + translate + '%)';
+    }
+    // Если переведено больше на 2 слайд
+    else if (translate < -60) {
+        console.log("Применен 2 блок")
+        translate = -75
+        sliderContainer.style.transform = 'translate(' + translate + '%)';
+    } else if (translate >= -60) {
+        console.log("Применен 2.1 блок")
+        translate = -50
     }
     document.removeEventListener('mousemove', translateX)
 
@@ -40,7 +54,7 @@ window.addEventListener('mouseup', () => {
 function translateX(event) {
     setTimeout(() => mouseStartX = event.clientX, 100)
     if (mouseStartX > event.clientX) {
-        if (translate == -75.00000000000058) {
+        if (translate == -75.) {
             console.log('Нельзя');
         } else {
             translate = translate - .3

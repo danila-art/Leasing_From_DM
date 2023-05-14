@@ -105,16 +105,22 @@
 .cars__box-button {
     display: block;
     border-top: 1px solid #0066FF;
-    height: 8%;
+    height: 7%;
+    color: #0066FF;
+    cursor: pointer;
 }
 
 .cars__box-button p {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #0066FF;
     padding: 1%;
     margin: 0;
+}
+
+.cars__box-button:hover {
+    background-color: #0066FF;
+    color: white;
 }
 
 .cars__button {
@@ -123,6 +129,11 @@
     width: 10vw;
     text-align: center;
     margin: 0 auto;
+    transition: .1s;
+}
+
+.cars__button:hover {
+    background-color: #0066FF;
 }
 
 .cars__button a {
@@ -183,17 +194,23 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.news__box-flex-text h3{
+
+.news__box-flex-text h3 {
     font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
+
 .news__box-flex-button {
     display: block;
     background-color: #0066FF;
     width: 15%;
     height: 13%;
     text-align: center;
+}
+
+.news__box-flex-button:hover {
+    background-color: #151515;
 }
 
 .news__box-flex-button a {
