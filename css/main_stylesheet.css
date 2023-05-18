@@ -95,7 +95,7 @@ body {
     flex-wrap: nowrap;
     width: 400vw;
     user-select: none;
-    transition: .2s;
+    transition: .1s;
 }
 
 .section-1-slider-container-inner-container__box-img {
